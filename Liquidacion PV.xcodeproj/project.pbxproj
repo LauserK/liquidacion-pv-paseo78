@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFFB4182094C907002569AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB4172094C907002569AE /* AppDelegate.swift */; };
+		FAFFB41A2094C907002569AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB4192094C907002569AE /* ViewController.swift */; };
+		FAFFB41D2094C907002569AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFFB41B2094C907002569AE /* Main.storyboard */; };
+		FAFFB4202094C907002569AE /* Liquidacion_PV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB41E2094C907002569AE /* Liquidacion_PV.xcdatamodeld */; };
+		FAFFB4222094C907002569AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFFB4212094C907002569AE /* Assets.xcassets */; };
+		FAFFB4252094C907002569AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFFB4232094C907002569AE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAFFB4142094C907002569AE /* Liquidacion PV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liquidacion PV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFFB4172094C907002569AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFFB4192094C907002569AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFFB41C2094C907002569AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFFB41F2094C907002569AE /* Liquidacion_PV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Liquidacion_PV.xcdatamodel; sourceTree = "<group>"; };
+		FAFFB4212094C907002569AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFFB4242094C907002569AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFFB4262094C907002569AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFFB4112094C903002569AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFFB40B2094C903002569AE = {
+			isa = PBXGroup;
+			children = (
+				FAFFB4162094C907002569AE /* Liquidacion PV */,
+				FAFFB4152094C907002569AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFFB4152094C907002569AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFFB4142094C907002569AE /* Liquidacion PV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFFB4162094C907002569AE /* Liquidacion PV */ = {
+			isa = PBXGroup;
+			children = (
+				FAFFB4172094C907002569AE /* AppDelegate.swift */,
+				FAFFB4192094C907002569AE /* ViewController.swift */,
+				FAFFB41B2094C907002569AE /* Main.storyboard */,
+				FAFFB4212094C907002569AE /* Assets.xcassets */,
+				FAFFB4232094C907002569AE /* LaunchScreen.storyboard */,
+				FAFFB4262094C907002569AE /* Info.plist */,
+				FAFFB41E2094C907002569AE /* Liquidacion_PV.xcdatamodeld */,
+			);
+			path = "Liquidacion PV";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFFB4132094C903002569AE /* Liquidacion PV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFFB4292094C907002569AE /* Build configuration list for PBXNativeTarget "Liquidacion PV" */;
+			buildPhases = (
+				FAFFB4102094C903002569AE /* Sources */,
+				FAFFB4112094C903002569AE /* Frameworks */,
+				FAFFB4122094C903002569AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Liquidacion PV";
+			productName = "Liquidacion PV";
+			productReference = FAFFB4142094C907002569AE /* Liquidacion PV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFFB40C2094C903002569AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Grupo Paseo";
+				TargetAttributes = {
+					FAFFB4132094C903002569AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3FWNGW7RR4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAFFB40F2094C903002569AE /* Build configuration list for PBXProject "Liquidacion PV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFFB40B2094C903002569AE;
+			productRefGroup = FAFFB4152094C907002569AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFFB4132094C903002569AE /* Liquidacion PV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFFB4122094C903002569AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFFB4252094C907002569AE /* LaunchScreen.storyboard in Resources */,
+				FAFFB4222094C907002569AE /* Assets.xcassets in Resources */,
+				FAFFB41D2094C907002569AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFFB4102094C903002569AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFFB4202094C907002569AE /* Liquidacion_PV.xcdatamodeld in Sources */,
+				FAFFB41A2094C907002569AE /* ViewController.swift in Sources */,
+				FAFFB4182094C907002569AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAFFB41B2094C907002569AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFFB41C2094C907002569AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFFB4232094C907002569AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFFB4242094C907002569AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFFB4272094C907002569AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFFB4282094C907002569AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFFB42A2094C907002569AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FWNGW7RR4;
+				INFOPLIST_FILE = "Liquidacion PV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paseo78.Liquidacion-PV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAFFB42B2094C907002569AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FWNGW7RR4;
+				INFOPLIST_FILE = "Liquidacion PV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paseo78.Liquidacion-PV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFFB40F2094C903002569AE /* Build configuration list for PBXProject "Liquidacion PV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFFB4272094C907002569AE /* Debug */,
+				FAFFB4282094C907002569AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFFB4292094C907002569AE /* Build configuration list for PBXNativeTarget "Liquidacion PV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFFB42A2094C907002569AE /* Debug */,
+				FAFFB42B2094C907002569AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAFFB41E2094C907002569AE /* Liquidacion_PV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAFFB41F2094C907002569AE /* Liquidacion_PV.xcdatamodel */,
+			);
+			currentVersion = FAFFB41F2094C907002569AE /* Liquidacion_PV.xcdatamodel */;
+			path = Liquidacion_PV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAFFB40C2094C903002569AE /* Project object */;
+}
