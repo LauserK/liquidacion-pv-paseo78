@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		649AF58D99EEA0C7CF529F4A /* Pods_Liquidacion_PV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD143972440A83248B74F25 /* Pods_Liquidacion_PV.framework */; };
 		FAFFB4182094C907002569AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB4172094C907002569AE /* AppDelegate.swift */; };
 		FAFFB41A2094C907002569AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFB4192094C907002569AE /* ViewController.swift */; };
 		FAFFB41D2094C907002569AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFFB41B2094C907002569AE /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		108C0FC1E8C25595C70507CC /* Pods-Liquidacion PV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liquidacion PV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liquidacion PV/Pods-Liquidacion PV.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD143972440A83248B74F25 /* Pods_Liquidacion_PV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liquidacion_PV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CEA3BDB71E88A9DFA1997D /* Pods-Liquidacion PV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liquidacion PV.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liquidacion PV/Pods-Liquidacion PV.release.xcconfig"; sourceTree = "<group>"; };
 		FAFFB4142094C907002569AE /* Liquidacion PV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liquidacion PV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFFB4172094C907002569AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFFB4192094C907002569AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649AF58D99EEA0C7CF529F4A /* Pods_Liquidacion_PV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C24312DAE258438C8771C18F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				108C0FC1E8C25595C70507CC /* Pods-Liquidacion PV.debug.xcconfig */,
+				B1CEA3BDB71E88A9DFA1997D /* Pods-Liquidacion PV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6B78D084B020C9DEB051A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD143972440A83248B74F25 /* Pods_Liquidacion_PV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAFFB40B2094C903002569AE = {
 			isa = PBXGroup;
 			children = (
 				FAFFB4162094C907002569AE /* Liquidacion PV */,
 				FAFFB4152094C907002569AE /* Products */,
+				C24312DAE258438C8771C18F /* Pods */,
+				C6B78D084B020C9DEB051A1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAFFB4292094C907002569AE /* Build configuration list for PBXNativeTarget "Liquidacion PV" */;
 			buildPhases = (
+				3599143507DC2895B2A51F4A /* [CP] Check Pods Manifest.lock */,
 				FAFFB4102094C903002569AE /* Sources */,
 				FAFFB4112094C903002569AE /* Frameworks */,
 				FAFFB4122094C903002569AE /* Resources */,
+				47FF69E73C40A9C06C0DD8F8 /* [CP] Embed Pods Frameworks */,
+				35E94327243B99AB68F4D39A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3599143507DC2895B2A51F4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Liquidacion PV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E94327243B99AB68F4D39A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liquidacion PV/Pods-Liquidacion PV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FF69E73C40A9C06C0DD8F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Liquidacion PV/Pods-Liquidacion PV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liquidacion PV/Pods-Liquidacion PV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAFFB4102094C903002569AE /* Sources */ = {
@@ -263,6 +346,7 @@
 		};
 		FAFFB42A2094C907002569AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108C0FC1E8C25595C70507CC /* Pods-Liquidacion PV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3FWNGW7RR4;
@@ -277,6 +361,7 @@
 		};
 		FAFFB42B2094C907002569AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CEA3BDB71E88A9DFA1997D /* Pods-Liquidacion PV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3FWNGW7RR4;
@@ -308,6 +393,7 @@
 				FAFFB42B2094C907002569AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
